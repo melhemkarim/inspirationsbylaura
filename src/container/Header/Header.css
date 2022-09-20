@@ -1,0 +1,25 @@
+.app__header{
+    background-color: #fffbd3;
+}
+
+.app__header-h1{
+    color: #000;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img{
+    width: 80%;
+}
+
+.app__wrapper_info button{
+   margin-top: 20px;
+}
+
+.button__hover:hover{
+    background-color: grey ;
+    color: black;
+    transition: 0.5s ease;
+}
