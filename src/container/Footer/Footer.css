@@ -28,6 +28,7 @@
 .app__footer-links_logo img:first-child {
     width: 200px;
     margin-bottom: 0.75rem;
+    padding-right: 40px;
 }
 
 
