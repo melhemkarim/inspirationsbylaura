@@ -1,5 +1,6 @@
 .app__header{
     background-color: #fffbd3;
+    padding-right: 100px;
     
 }
 
@@ -14,6 +15,7 @@
 .app__wrapper_img img{
     padding-top: 80px;
     width: 450px;
+    padding-right: 50px;
 }
 
 .app__wrapper_info button{
