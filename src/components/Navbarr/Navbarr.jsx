@@ -1,28 +1,29 @@
 import React from 'react';
 import './Navbarr.css';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Navbarr = () => {
   return (
-    <div className='.app__navbar'>
-      <div className='wrapper'>
-        <div className="left"></div>
-        <div className='center'>
-          <div className='menuItem-nav2'> <a href="register.jsx"> Home </a> </div> 
-          <div className='menuItem-nav2'> <a href="sign.jsx"> About</a></div> 
-          <div className='menuItem-nav2'> <a href="sign.jsx"> Categories</a></div> 
-          
-          </div>
-          <div className='right'>
-          <div className="app__footer-links_icons">
-          <a href="www.facebook.com"><FiFacebook/></a>
-          <FiTwitter />
-          <FiInstagram />
-          
-          </div>
-        </div>
-        </div>
-      </div>
+    <Nav className="justify-content-center navv" activeKey="/home">
+        <Nav.Item>
+         <a href=""> <Nav.Link href="/home">Home</Nav.Link></a>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">About</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-2">Categories</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-2">Contact</Nav.Link>
+        </Nav.Item>
+        
+      </Nav>
   );
 };
 

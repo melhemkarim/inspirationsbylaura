@@ -1,4 +1,4 @@
-import Navbar from './Navbar/Navbar';
+import Navbarrr from './Navbarrr/Navbarrr';
 import Navbarr from './Navbarr/Navbarr';
 import Products from './Products/Products';
 
@@ -7,7 +7,7 @@ import Products from './Products/Products';
 
 export {
  
-  Navbar,
+  Navbarrr,
   Navbarr,
   Products,
 };

@@ -1,73 +1,10 @@
-.app__navbar{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fffbd3;
-    padding: 1rem 2rem;
-}
-.wrapper{
-    padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fffbd3;
-  
-}
-
-.left{
-  flex: 1;
-display: flex;
-align-items: center;
-}
-.center{
-    flex: 1;
-  text-align: center;
-}
-
-.right{
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.menuItem-nav2{
-    font-size: 14px;
-    cursor: pointer;
-    margin-left: 25px;
-  display: inline-flex;
-  margin: 10px 10px;
-
-}
-.menuItem-nav2 a{
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 18px;
-  font-weight:100;
-  color: inherit;
-  transition: 0.5 ease;
-}
-
-.menuItem-nav2 a:hover{
-  color: rgb(255, 188, 30);
-}
-
-
-.app__footer-links_icons {
-  margin-top: 0.5rem;
-}
-
-.app__footer-links_icons svg {
+.navv a{
   color: black;
-  margin: 0.5rem;
-  font-size: 24px;
-  cursor: pointer;
-  margin-bottom: 50px;
-  font-size: 22px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
 }
 
-.app__footer-links_icons svg:hover {
-  color: rgb(255, 188, 30);
+.navv a:hover{
+  color:  goldenrod;
 }
-

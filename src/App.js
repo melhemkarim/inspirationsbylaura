@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { AboutUs, Arrivals, Footer,  Header,} from './container';
-import { Navbar , Navbarr, Products } from './components';
+import { Navbarrr , Navbarr, Products } from './components';
 import './App.css';
 
 const App = () => (
   <div>
-    <Navbar />
+    <Navbarrr />
     <Navbarr />
     <Header />
     <AboutUs />

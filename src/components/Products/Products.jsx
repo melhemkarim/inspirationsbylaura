@@ -14,13 +14,13 @@ function products() {
     </div>
     
     <Row>
-    <Col xs={6} md={4}>
+    <Col sm>
         <img src={L} alt="" />
         </Col>
-        <Col xs={6} md={4}>
+        <Col sm>
         <img src={L} alt="" />
         </Col>
-        <Col xs={6} md={4}>
+        <Col sm>
         <img src={L} alt="" />
         </Col>
     </Row>
