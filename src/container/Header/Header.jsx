@@ -4,6 +4,7 @@ import images from '../../constants/images';
 import './Header.css';
 
 const Header = () => (
+  <Container>
     <Row>
       <Col sm>
       <div className='app__header app__wrapper section__padding' id='home'>
@@ -21,7 +22,7 @@ const Header = () => (
       </div>
       </Col>
     </Row>
- 
+    </Container>
     
 );
 

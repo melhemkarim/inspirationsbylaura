@@ -1,17 +1,19 @@
 .app__header{
     background-color: #fffbd3;
+    
 }
 
 .app__header-h1{
     color: #000;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    line-height: 117px;
-    font-size: 90px;
+    line-height: 100px;
+    font-size: 70px;
 }
 
 .app__wrapper_img img{
     padding-top: 80px;
+    width: 450px;
 }
 
 .app__wrapper_info button{
