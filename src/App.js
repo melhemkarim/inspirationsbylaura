@@ -12,7 +12,6 @@ const App = () => (
     <AboutUs />
     <Products />
     <Arrivals/>
-    <Footer />
   </div>
 );
 
