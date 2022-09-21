@@ -4,7 +4,7 @@ import images from '../../constants/images';
 import './Header.css';
 
 const Header = () => (
-  <Container>
+  <Container fluid>
     <Row>
       <Col sm>
       <div className='app__header app__wrapper section__padding' id='home'>
